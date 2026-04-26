@@ -5,3 +5,6 @@
 
 ## Update
 - Menambahkan keterangan pada dokumentasi API
+
+## Update CI/CD
+- Perbaikan workflow documentation check
