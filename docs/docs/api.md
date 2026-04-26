@@ -11,4 +11,15 @@ File: login.php
 
 ### Output
 - "Login berhasil"
-- "Login gagal"
+
+## Register
+
+Method: POST  
+File: register.php  
+
+### Input
+- email
+- password
+
+### Output
+- "User berhasil didaftarkan"
