@@ -23,3 +23,6 @@ File: register.php
 
 ### Output
 - "User berhasil didaftarkan"
+
+### Keterangan
+API digunakan untuk proses login dan register user
