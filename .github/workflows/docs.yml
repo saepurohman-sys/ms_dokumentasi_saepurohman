@@ -1,0 +1,25 @@
+name: Documentation Check
+
+on:
+  push:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Check docs folder
+        run: |
+          if [ ! -d "docs" ]; then
+            echo "Docs folder missing!"
+            exit 1
+          fi
+
+      - name: Check api.md
+        run: |
+          if [ ! -f "docs/api.md" ]; then
+            echo "api.md missing!"
+            exit 1
+          fi
